@@ -1,0 +1,19 @@
+<table border=2>
+  <thead>
+    <th>ID</th>
+    <th>Name</th>
+    <th>Salary</th>
+    <th>Department</th>
+  </thead>
+  <tbody>
+    <tr *ngFor="let employee of employees;let i=index">
+      <td>{{ employee.id }}</td>
+      <td>{{ employee.name }}</td>
+      <td>{{ employee.salary }}</td>
+      <td>{{ employee.department }}</td>
+      <td><button (click)="delete(i)">Delete</button></td>
+      <!-- <td><button (click)="[(ngModel)]=update(i)">Update</button></td> -->
+    </tr>
+  </tbody>
+</table>
+<!-- {{update(i)}} -->

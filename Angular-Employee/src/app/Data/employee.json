@@ -1,0 +1,40 @@
+[
+    {
+        "id":100,
+        "name":"Sonali",
+        "salary":22000,
+        "department":"Java"
+    },
+    {
+        
+        "id":101,
+        "name":"Shivani",
+        "salary":25000,
+        "department":"Angular"
+        
+    },
+    {
+        "id":102,
+        "name":"Mansha",
+        "salary":28000,
+        "department":"JS"
+    },
+    {
+        "id":103,
+        "name":"Nitin",
+        "salary":20000,
+        "department":"JEE"
+    },
+    {
+        "id":104,
+        "name":"Ankit",
+        "salary":20000,
+        "department":"Angular"
+    },
+    {
+        "id":105,
+        "name":"Gangu",
+        "salary":30000,
+        "department":"Angular"
+    }
+]
